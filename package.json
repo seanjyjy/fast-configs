@@ -1,0 +1,52 @@
+{
+  "name": "fast-configs",
+  "version": "1.0.0",
+  "description": "Speed up initial development by bootstrapping configs such as eslint, prettier, husky, gitignore",
+  "exports": "./index.js",
+  "type": "module",
+  "bin": {
+    "config": "./bin/index.js"
+  },
+  "keywords": [
+    "fast",
+    "bootstrap",
+    "eslint",
+    "prettier",
+    "husky",
+    "linters",
+    "precommit",
+    "code-formatter",
+    "configs",
+    "gitignore"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seanjyjy/fast-configs.git"
+  },
+  "author": "Sean Lum",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/seanjyjy/fast-configs/issues"
+  },
+  "homepage": "https://github.com/seanjyjy/fast-configs#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "chalk": "^5.0.0",
+    "commander": "^8.3.0",
+    "inquirer": "^8.2.0",
+    "listr2": "^3.13.5"
+  },
+  "devDependencies": {
+    "eslint": "^8.5.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "husky": "^7.0.4",
+    "lint-staged": "^12.1.4",
+    "prettier": "^2.5.1"
+  }
+}
