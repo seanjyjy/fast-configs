@@ -1,0 +1,17 @@
+{
+  "root": true,
+  "extends": [
+    "eslint:recommended", 
+    "airbnb",
+    "prettier"
+  ],
+  "plugins": ["prettier"],
+  "env": {
+    "node": true,
+    "es6": true
+  },
+  "rules": {
+    // disable the rule for all files
+    "prettier/prettier": "warn"
+  }
+}
