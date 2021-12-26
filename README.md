@@ -5,7 +5,7 @@
 
 Cli to speed up initial development by bootstrapping configs such as eslint, prettier, husky
 
-![gif](./images/demo.gif)
+![demo](./images/demo.gif)
 
 ---
 

@@ -1,6 +1,6 @@
 {
   "name": "fast-configs",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Speed up initial development by bootstrapping configs such as eslint, prettier, husky, gitignore",
   "exports": "./index.js",
   "type": "module",
