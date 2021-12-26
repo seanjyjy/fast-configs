@@ -2,6 +2,7 @@
 
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/seanjyjy/fast-configs/blob/master/LICENSE)
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
+![npm](https://img.shields.io/librariesio/release/npm/fast-configs)
 
 Cli to speed up initial development by bootstrapping configs such as eslint, prettier, husky
 
